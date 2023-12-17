@@ -1,0 +1,71 @@
+/* 
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Pink: hsl(322, 100%, 66%)
+
+### Neutral
+
+- Very Pale Cyan: hsl(193, 100%, 96%)
+- Very Dark Cyan: hsl(192, 100%, 9%)
+- Grayish Blue: hsl(208, 11%, 55%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 18px
+
+### Headings
+
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 600
+
+### Body, Call-to-actions
+
+- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+- Weights: 400, 700 */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,700;1,600&family=Open+Sans:wght@400;700&family=Overpass:wght@400;700&family=Poppins:wght@600&display=swap');
+
+
+/* we don't have to reset the ,argin and paddings of page bcz using tailwingd tailwind will do it for us */
+
+body{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+      /*  by default 16 */
+}
+
+
+img{
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
