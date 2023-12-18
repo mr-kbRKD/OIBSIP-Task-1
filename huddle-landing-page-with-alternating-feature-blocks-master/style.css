@@ -40,24 +40,44 @@ The designs were created to the following widths:
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,700;1,600&family=Open+Sans:wght@400;700&family=Overpass:wght@400;700&family=Poppins:wght@600&display=swap');
 
 
-/* we don't have to reset the ,argin and paddings of page bcz using tailwingd tailwind will do it for us */
+
+
+*{
+    box-sizing: border-box;
+}
 
 body{
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
-      /*  by default 16 */
+    color: hsl(192, 100%, 9%) ;
+    /*  by default 16 */
+}
+
+h1, h2{
+    font-family: "Open Sans", sans-serif;
+}
+p{
+    opacity: .6;
 }
 
 
 img{
-    width: 100%;
+    max-width: 100%;
 }
 
 ul{
     list-style-type: none;
 }
 
-
+.btn{
+border-radius: 50px;
+background-color: #fff;
+border: none;
+box-shadow: 0 0 10px rgba(0,0,0,.15);
+padding:8px 30px ;
+font-weight: bold;
+font-style: inherit;
+}
 
 
 
